@@ -39,7 +39,7 @@ def bind_socket():
         bind_socket()
 
 # Handling connection from multiple clients and saving to a list
-# Closing previous connections when server.py file is restarted.
+# Closing previous connections when multi_threading_server.py file is restarted.
 
 def accepting_connections():
     for c in all_connections: 
